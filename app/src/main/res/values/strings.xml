@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImageLoad</string>
+    <string name="image">Image</string>
+    <string name="empty">Empty</string>
+    <string name="add_request">Add Request</string>
+    <string name="submit">Submit</string>
+</resources>
