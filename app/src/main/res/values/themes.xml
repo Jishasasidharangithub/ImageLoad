@@ -141,4 +141,10 @@
 
     </style>
 
+    <style name="ImageCropper" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/darkBlue</item>
+        <item name="colorPrimaryDark">@color/darkBlue</item>
+        <item name="colorAccent">@color/darkBlue</item>
+    </style>
+
 </resources>

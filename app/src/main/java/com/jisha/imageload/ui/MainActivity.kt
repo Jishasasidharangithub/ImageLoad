@@ -94,7 +94,6 @@ class MainActivity : AppCompatActivity(), ImagesAdapter.OnItemClickListener, Ima
             when (requestCode) {
                 IMAGE_PICKER_REQUEST -> {
                     val uri = data?.data!!
-                    //logThis("Picked image Uri = $uri")
                     startCropImageActivity(uri)
                 }
                 CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE -> {
